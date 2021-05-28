@@ -27,6 +27,8 @@ String userName = sc.nextLine();
 System.out.println("\nEnter your Password:");
 
 String pass = sc.nextLine(); 
+  
+  System.out.println("I'm the CHANGE!");
 rf.fillRegistrationForm(fn, age, userName, pass);
 
 sc.close();
